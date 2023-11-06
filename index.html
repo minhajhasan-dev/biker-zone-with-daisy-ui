@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-theme="light" lang="en">
+<html data-theme="cupcake" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,6 +26,7 @@
             colors: {
               clifford: "#da373d",
               "bike-primary": "#E76F51",
+              "bike-primary-bg": "rgba(231, 111, 81, 0.10)",
             },
           },
         },
@@ -70,7 +71,9 @@
                 <li><a>Contact</a></li>
               </ul>
             </div>
-            <a class="btn btn-ghost normal-case text-4xl">Bike Dekho</a>
+            <a class="btn btn-ghost normal-case text-2xl lg:text-4xl"
+              >Bike Dekho</a
+            >
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu text-base menu-horizontal px-1">
@@ -85,6 +88,127 @@
           </div>
         </div>
       </nav>
+      <!-- slider or carousel  -->
+      <div class="carousel w-full lg:h-[550px] bg-bike-primary-bg">
+        <!-- slide 1  -->
+        <div id="slide1" class="carousel-item relative w-full">
+          <div class="flex flex-col lg:flex-row p-6 lg:p-24 items-center">
+            <div class="space-y-2 lg:space-y-7 flex-1">
+              <h2 class="text-2xl lg:text-6xl font-bold">
+                Ride-on R15 V4 <br />
+                with Smile
+              </h2>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <div
+                class="flex justify-center md:justify-start lg:justify-start pb-5 md:pb-auto lg:pb-auto"
+              >
+                <button class="btn btn-primary bg-bike-primary text-white">
+                  Purchase
+                </button>
+              </div>
+            </div>
+            <div class="flex-1">
+              <img src="/images/slider/bike1.png" class="w-[482px]" />
+            </div>
+          </div>
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <!-- slide 2 -->
+        <div id="slide2" class="carousel-item relative w-full">
+          <div class="flex flex-col lg:flex-row p-6 lg:p-24 items-center">
+            <div class="space-y-2 lg:space-y-7 flex-1">
+              <h2 class="text-2xl lg:text-6xl font-bold">
+                Ride-on R15 V4 <br />
+                with Smile
+              </h2>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <div
+                class="flex justify-center md:justify-start lg:justify-start pb-5 md:pb-auto lg:pb-auto"
+              >
+                <button class="btn bg-bike-primary text-white">Purchase</button>
+              </div>
+            </div>
+            <div class="flex-1">
+              <img src="/images/slider/bike2.png" class="w-[482px]" />
+            </div>
+          </div>
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <!-- slide 3  -->
+        <div id="slide3" class="carousel-item relative w-full">
+          <div class="flex flex-col lg:flex-row p-6 lg:p-24 items-center">
+            <div class="space-y-2 lg:space-y-7 flex-1">
+              <h2 class="text-2xl lg:text-6xl font-bold">
+                Ride-on R15 V4 <br />
+                with Smile
+              </h2>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <div
+                class="flex justify-center md:justify-start lg:justify-start pb-5 md:pb-auto lg:pb-auto"
+              >
+                <button class="btn bg-bike-primary text-white">Purchase</button>
+              </div>
+            </div>
+            <div class="flex-1">
+              <img src="/images/slider/bike3.png" class="w-[482px]" />
+            </div>
+          </div>
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <!-- slide 4 -->
+        <div id="slide4" class="carousel-item relative w-full">
+          <div class="flex flex-col lg:flex-row p-6 lg:p-24 items-center">
+            <div class="space-y-2 lg:space-y-7 flex-1">
+              <h2 class="text-2xl lg:text-6xl font-bold">
+                Ride-on R15 V4 <br />
+                with Smile
+              </h2>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <div
+                class="flex justify-center md:justify-start lg:justify-start pb-5 md:pb-auto lg:pb-auto"
+              >
+                <button class="btn bg-bike-primary text-white">Purchase</button>
+              </div>
+            </div>
+            <div class="flex-1">
+              <img src="/images/slider/bike4.png" class="w-[482px]" />
+            </div>
+          </div>
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
     </header>
     <main class="md:container md:mx-auto"></main>
     <footer></footer>
